@@ -25,8 +25,9 @@ void distancia(carga q1, carga q2, long double *r) { // en q2 tenes que escribir
 }
 
 void coulomb(long double *Ft, carga q1, carga q2, long double *r) {
-    Ft[0] = ((Kc*q1.valor*q2.valor)/pow(pow(r[0], 2) + pow(r[1], 2), 1.5)) * r[0];
-    Ft[1] = ((Kc*q1.valor*q2.valor)/pow(pow(r[0], 2) + pow(r[1], 2), 1.5)) * r[1];
+    for (int i = 0; i < dim; i++) {
+        Ft[i] = ((Kc*q1.valor*q2.valor)/pow(pow(r[0], 2) + pow(r[1], 2), 1.5)) * r[i];
+    }
 }
 
 int main(int argc, char *argv[]) 
