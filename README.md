@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/6b2576bb-e9ef-4da0-b0ca-91cb7c75396e)# Calculadora de fuerzas electroestatica
+# Calculadora de fuerzas electroestatica
 ## Descripcion
 El programa se encarga de calcular las fuerzas electroestaticas entre dos cargas puntuanles (discretas), en un plano de dimensiones; 
 aunque facilmente se pued agregar una mas para que sea en 3 dimensiones; pero los testeos en un principio son mas sencillos en dos dimensiones.
